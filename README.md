@@ -36,35 +36,36 @@ The modules required in Python are
 2. Install required modules
 
 ## Examples
-We solve the baby wave equation $u_t=u_x$ with periodic boundary conditions over the interval $[0,1]$ and display the solution at time $t=0,0.5,1$. 
+We solve the baby wave equation $u_t=u_x$ with periodic boundary conditions over the interval $[0,1]$ and display the solution at time $t=0,0.5,1$. For each problem we chose a spatial step size of $\frac{1}{200}$ and a time step size of $\frac{1}{226}$.
 
 #### Backward Time and Centered Space (BTCS):
 
 <a href="https://github.com/Shlorki/NumericalHW2">
-  <img src="Images/Dirichlet.png" alt="helmpt" width="400" height="300">
-  <img src="Images/DirichletCvg.png" width="150" height="300">
+  <img src="Images./BTCS.png" alt="BTCS" width="500" height="350">
 </a>
 
 #### Crank_Nicholson Time and Centered Space (CNCS):
 
 <a href="https://github.com/Shlorki/NumericalHW2">
-  <img src="Images/Neumann-Dirichlet.png" alt="helmpt" width="400" height="300">
-  <img src="Images/NeuDirCvg.png" width="150" height="300">
+  <img src="Images./CNCS.png" alt="helmpt" width="500" height="350">
 </a>
 
-#### Lax-Friedrichs:
+#### Lax-Friedrichs (LaxFried):
 
 <a href="https://github.com/Shlorki/NumericalHW2">
-  <img src="Images/Dirichlet-Robin.png" alt="helmpt" width="400" height="300">
-  <img src="Images/DirRobCvg.png" width="150" height="300">
+  <img src="Images./LaxFried.png" alt="helmpt" width="500" height="350">
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+#### Lax-Wendroff (LaxWend):
 
-#### Lax-Wendroff:
-
-asdfsdf
+<a href="https://github.com/Shlorki/NumericalHW2">
+  <img src="Images./LaxWend.png" alt="helmpt" width="500" height="350">
+</a>
 
 #### RK4 in Time and Compact Differences in Space (RK4/CD4):
 
-asdfsadf 
+<a href="https://github.com/Shlorki/NumericalHW2">
+  <img src="Images./RK4CD4.png" alt="helmpt" width="500" height="350">
+</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
