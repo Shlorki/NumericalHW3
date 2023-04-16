@@ -44,11 +44,15 @@ We solve the baby wave equation $u_t=u_x$ with periodic boundary conditions over
   <img src="Images./BTCS.png" alt="BTCS" width="500" height="350">
 </a>
 
+![alt-text](https://github.com/Shlorki/NumericalHW3/blob/main/Images./BTCS_animation.gif)
+
 #### Crank_Nicholson Time and Centered Space (CNCS):
 
 <a href="https://github.com/Shlorki/NumericalHW2">
   <img src="Images./CNCS.png" alt="helmpt" width="500" height="350">
 </a>
+
+![alt-text](https://github.com/Shlorki/NumericalHW3/blob/main/Images./CNCS_animation.gif)
 
 #### Lax-Friedrichs (LaxFried):
 
@@ -56,16 +60,22 @@ We solve the baby wave equation $u_t=u_x$ with periodic boundary conditions over
   <img src="Images./LaxFried.png" alt="helmpt" width="500" height="350">
 </a>
 
+![alt-text](https://github.com/Shlorki/NumericalHW3/blob/main/Images./LaxFried_animation.gif)
+
 #### Lax-Wendroff (LaxWend):
 
 <a href="https://github.com/Shlorki/NumericalHW2">
   <img src="Images./LaxWend.png" alt="helmpt" width="500" height="350">
 </a>
 
+![alt-text](https://github.com/Shlorki/NumericalHW3/blob/main/Images./LaxWend_animation.gif)
+
 #### RK4 in Time and Compact Differences in Space (RK4/CD4):
 
 <a href="https://github.com/Shlorki/NumericalHW2">
   <img src="Images./RK4CD4.png" alt="helmpt" width="500" height="350">
 </a>
+
+![alt-text](https://github.com/Shlorki/NumericalHW3/blob/main/Images./RK4CD4_animation.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
