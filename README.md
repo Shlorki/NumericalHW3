@@ -36,7 +36,17 @@ The modules required in Python are
 2. Install required modules
 
 ## Examples
-We solve the baby wave equation $u_t=u_x$ with periodic boundary conditions over the interval $[0,1]$ and display the solution at time $t=0,0.5,1$. For each problem we chose a spatial step size of $\frac{1}{200}$ and a time step size of $\frac{1}{226}$.
+We solve the baby wave equation $u_t=u_x$ with periodic boundary conditions over the interval $[0,1]$ and display the solution at time $t=0,0.5,1$. For each problem we chose a spatial step size of $\frac{1}{200}$ and a time step size of $\frac{1}{226}$. The initial condition is given by 
+
+<p>
+$$
+g(x) = \begin{cases} 
+10x-4 & .4\leq x\leq.5 \\
+6-10x & .5\leq x\leq.6 \\
+0 & \text{otherwise} 
+\end{cases}
+$$
+</p>
 
 #### Backward Time and Centered Space (BTCS):
 
@@ -79,3 +89,23 @@ We solve the baby wave equation $u_t=u_x$ with periodic boundary conditions over
 ![alt-text](https://github.com/Shlorki/NumericalHW3/blob/main/Images./RK4CD4_animation.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    ignoreHtmlClass: '.*|',
+    processHtmlClass: 'arithmatex'
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
