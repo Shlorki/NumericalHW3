@@ -89,23 +89,3 @@ $$
 ![alt-text](https://github.com/Shlorki/NumericalHW3/blob/main/Images./RK4CD4_animation.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']],
-    processEscapes: true,
-    processEnvironments: true
-  },
-  options: {
-    ignoreHtmlClass: '.*|',
-    processHtmlClass: 'arithmatex'
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
